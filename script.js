@@ -71,9 +71,7 @@ function calculate() {
             break; 
         case "%": 
             result = prevNumber / 100 * currentNumber;
-            break
-        // case "% + *":
-        //     result = (prevNumber / 100 * 1) * currentNumber;       
+            break;              
         default: 
             break;
     }
